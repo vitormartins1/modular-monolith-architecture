@@ -8,5 +8,10 @@
     <Project Path="Evently.Api/Evently.Api.csproj" />
   </Folder>
   <Folder Name="/src/Modules/" />
-  <Folder Name="/src/Modules/Events/" />
+  <Folder Name="/src/Modules/Events/">
+    <Project Path="Evently.Modules.Events.Api/Evently.Modules.Events.Api.csproj" Id="ae632c5c-69b5-499a-99f7-b9e2434a4872" />
+  </Folder>
+  <Project Path="docker-compose.dcproj">
+    <Build />
+  </Project>
 </Solution>
