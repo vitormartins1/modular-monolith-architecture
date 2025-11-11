@@ -14,7 +14,6 @@ ARG BUILD_CONFIGURATION=Release
 WORKDIR /src
 COPY ["Directory.Build.props", "."]
 COPY ["Evently.Api/Evently.Api.csproj", "Evently.Api/"]
-COPY ["Evently.Modules.Events.Api/Evently.Modules.Events.Api.csproj", "Evently.Modules.Events.Api/"]
 RUN dotnet restore "./Evently.Api/Evently.Api.csproj"
 COPY . .
 WORKDIR "/src/Evently.Api"
