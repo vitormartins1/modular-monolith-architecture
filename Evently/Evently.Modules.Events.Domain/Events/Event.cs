@@ -1,6 +1,10 @@
-﻿namespace Evently.Modules.Events.Domain.Events;
+﻿
 
-public sealed class Event
+using Evently.Modules.Events.Domain.Abstractions;
+
+namespace Evently.Modules.Events.Domain.Events;
+
+public sealed class Event : Entity
 {
     private Event() { }
 
@@ -29,6 +33,8 @@ public sealed class Event
             EndsAtUtc = endsAtUtc,
             Status = EventStatus.Draft
         };
+
+        @event.Raise(new EventCreatedDomainEvent(@event.Id));
 
         return @event;
     }
