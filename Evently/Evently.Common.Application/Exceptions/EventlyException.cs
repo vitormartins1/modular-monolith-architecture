@@ -1,11 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using static System.Runtime.InteropServices.JavaScript.JSType;
+﻿using static System.Runtime.InteropServices.JavaScript.JSType;
 
-namespace Evently.Modules.Events.Application.Abstractions.Exceptions;
+namespace Evently.Common.Application.Exceptions;
 
 public sealed class EventlyException : Exception
 {

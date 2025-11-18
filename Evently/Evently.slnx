@@ -7,6 +7,11 @@
   <Folder Name="/src/API/">
     <Project Path="Evently.Api/Evently.Api.csproj" />
   </Folder>
+  <Folder Name="/src/Common/">
+    <Project Path="Evently.Common.Application/Evently.Common.Application.csproj" Id="9a583638-5e39-4bd2-a53c-0ba5e335a996" />
+    <Project Path="Evently.Common.Domain/Evently.Common.Domain.csproj" Id="8ef47416-4f94-4305-b1cd-09628e91f27f" />
+    <Project Path="Evently.Common.Infrastructure/Evently.Common.Infrastructure.csproj" Id="d17e9f82-7387-4060-99ca-21675bf7781b" />
+  </Folder>
   <Folder Name="/src/Modules/" />
   <Folder Name="/src/Modules/Events/">
     <Project Path="Evently.Modules.Events.Application/Evently.Modules.Events.Application.csproj" Id="7631b56b-9c9b-4758-8ac6-7e48cd72fa01" />
