@@ -1,5 +1,8 @@
 <Solution>
   <Folder Name="/Itens de Solução/">
+    <File Path="../.gitattributes" />
+    <File Path="../.gitignore" />
+    <File Path="../README.md" />
     <File Path=".editorconfig" />
     <File Path="Directory.Build.props" />
   </Folder>
