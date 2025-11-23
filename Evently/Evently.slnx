@@ -11,6 +11,7 @@
     <Project Path="Evently.Common.Application/Evently.Common.Application.csproj" Id="9a583638-5e39-4bd2-a53c-0ba5e335a996" />
     <Project Path="Evently.Common.Domain/Evently.Common.Domain.csproj" Id="8ef47416-4f94-4305-b1cd-09628e91f27f" />
     <Project Path="Evently.Common.Infrastructure/Evently.Common.Infrastructure.csproj" Id="d17e9f82-7387-4060-99ca-21675bf7781b" />
+    <Project Path="Evently.Common.Presentation/Evently.Common.Presentation.csproj" Id="87243284-2557-49a5-8fe4-6a6dcb2edb8a" />
   </Folder>
   <Folder Name="/src/Modules/" />
   <Folder Name="/src/Modules/Events/">
