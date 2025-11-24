@@ -22,12 +22,21 @@
     <Project Path="Evently.Modules.Events.Domain/Evently.Modules.Events.Domain.csproj" Id="0f6e83dc-a64e-41bb-b14e-48e7d09bd1ff" />
     <Project Path="Evently.Modules.Events.Infrastructure/Evently.Modules.Events.Infrastructure.csproj" Id="cb98a458-2211-4b2a-ad76-3110fdfe953d" />
     <Project Path="Evently.Modules.Events.Presentation/Evently.Modules.Events.Presentation.csproj" Id="68733531-c35a-4c85-8c7e-22f48d9204ae" />
+    <Project Path="Evently.Modules.Events.PublicApi/Evently.Modules.Events.PublicApi.csproj" Id="530162ac-fc81-4ca1-8fa6-adc46030e2f4" />
+  </Folder>
+  <Folder Name="/src/Modules/Ticketing/">
+    <Project Path="Evently.Modules.Ticketing.Application/Evently.Modules.Ticketing.Application.csproj" Id="aefaf5d0-37ac-473d-9288-99ffb3189b5f" />
+    <Project Path="Evently.Modules.Ticketing.Domain/Evently.Modules.Ticketing.Domain.csproj" Id="54400c66-2299-4b2c-9a4e-761b4bd98a1f" />
+    <Project Path="Evently.Modules.Ticketing.Infrastructure/Evently.Modules.Ticketing.Infrastructure.csproj" Id="fdc12a9f-575a-4ca9-a6cc-8c14be985b3e" />
+    <Project Path="Evently.Modules.Ticketing.Presentation/Evently.Modules.Ticketing.Presentation.csproj" Id="cac4d64d-ec76-41d9-9e06-2f2105797efa" />
+    <Project Path="Evently.Modules.Ticketing.PublicApi/Evently.Modules.Ticketing.PublicApi.csproj" Id="6e72ed7a-cfce-405a-8441-46cb005d6bd9" />
   </Folder>
   <Folder Name="/src/Modules/Users/">
     <Project Path="Evently.Modules.Users.Application/Evently.Modules.Users.Application.csproj" Id="8c840f66-2a0c-4181-9fc8-3d387f03acfa" />
     <Project Path="Evently.Modules.Users.Domain/Evently.Modules.Users.Domain.csproj" Id="3dea976d-85e3-446d-8774-409057a569af" />
     <Project Path="Evently.Modules.Users.Infrastructure/Evently.Modules.Users.Infrastructure.csproj" Id="53357c2e-18cd-4820-9f5a-8e41d08da263" />
     <Project Path="Evently.Modules.Users.Presentation/Evently.Modules.Users.Presentation.csproj" Id="9b232ace-4faf-40e7-a3d9-da023b93537e" />
+    <Project Path="Evently.Modules.Users.PublicApi/Evently.Modules.Users.PublicApi.csproj" Id="10850d3e-185b-4f1f-ad67-e1a4b6594a3f" />
   </Folder>
   <Project Path="docker-compose.dcproj">
     <Build />

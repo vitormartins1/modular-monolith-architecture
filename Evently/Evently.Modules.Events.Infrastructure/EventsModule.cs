@@ -12,6 +12,8 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Evently.Common.Presentation.Endpoints;
 using Evently.Common.Infrastructure.Interceptors;
+using Evently.Modules.Events.PublicApi;
+using Evently.Modules.Events.Infrastructure.PublicApi;
 
 namespace Evently.Modules.Events.Infrastructure;
 
@@ -46,5 +48,7 @@ public static class EventsModule
         services.AddScoped<IEventRepository, EventRepository>();
         services.AddScoped<ITicketTypeRepository, TicketTypeRepository>();
         services.AddScoped<ICategoryRepository, CategoryRepository>();
+
+        services.AddScoped<IEventsApi, EventsApi>();
     }
 }
