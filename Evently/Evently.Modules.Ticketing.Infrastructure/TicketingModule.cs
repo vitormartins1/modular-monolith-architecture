@@ -1,4 +1,4 @@
-﻿using Evently.Common.Infrastructure.Interceptors;
+﻿using Evently.Common.Infrastructure.Outbox;
 using Evently.Common.Presentation.Endpoints;
 using Evently.Modules.Ticketing.Application.Abstractions.Data;
 using Evently.Modules.Ticketing.Application.Carts;
@@ -7,10 +7,10 @@ using Evently.Modules.Ticketing.Infrastructure.Customers;
 using Evently.Modules.Ticketing.Infrastructure.Database;
 using Evently.Modules.Ticketing.Infrastructure.PublicApi;
 using Evently.Modules.Ticketing.PublicApi;
-using Microsoft.Extensions.Configuration;
-using Microsoft.Extensions.DependencyInjection;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Migrations;
+using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.DependencyInjection;
 
 namespace Evently.Modules.Ticketing.Infrastructure;
 

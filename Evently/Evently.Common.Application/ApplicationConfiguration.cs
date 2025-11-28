@@ -11,7 +11,6 @@ public static class ApplicationConfiguration
         this IServiceCollection services,
         Assembly[] moduleAssemblies)
     {
-
         services.AddMediatR(config =>
         {
             config.RegisterServicesFromAssemblies(moduleAssemblies);

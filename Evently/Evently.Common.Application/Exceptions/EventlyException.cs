@@ -1,4 +1,4 @@
-﻿using static System.Runtime.InteropServices.JavaScript.JSType;
+﻿using Evently.Common.Domain;
 
 namespace Evently.Common.Application.Exceptions;
 
